@@ -1,6 +1,6 @@
 const getCustomerSync = require('./lib/get-customer-sync');
 const createJson = require('./lib/create-json');
-const generateSheet = require('./lib/generate-sheet');
+const generateSheet = require('./lib/generate-sheet/generate-sheet');
 
 const getCustomers = async shop => {
 	let data = await getCustomerSync(shop);
@@ -10,4 +10,10 @@ const getCustomers = async shop => {
 	createJson(dataString);
 };
 
-module.exports = { getCustomers, generateSheet };
+const genSheet = (filename = 'customer', ext = 'xlsx') => {
+	generateSheet(filename, ext, () => {
+		console.info(`All data have exported to ${filename}.${ext}`);
+	});
+};
+
+module.exports = { getCustomers, genSheet };
