@@ -1,5 +1,5 @@
 {
-  "name": "scs",
+  "name": "cust-scraper",
   "version": "1.0.0",
   "description": "A simple CLI app for scraping customers from a Shopify store",
   "main": "index.js",
