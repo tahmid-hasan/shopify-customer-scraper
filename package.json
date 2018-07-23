@@ -1,6 +1,6 @@
 {
   "name": "cust-scraper",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A simple CLI app for scraping customers from a Shopify store",
   "main": "index.js",
   "scripts": {
