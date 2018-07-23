@@ -9,6 +9,7 @@
   "author": "Tahmid Hasan",
   "license": "ISC",
   "dependencies": {
+    "cli-spinner": "^0.2.8",
     "commander": "^2.16.0",
     "inquirer": "^6.0.0",
     "xlsx": "^0.13.2"
