@@ -14,13 +14,13 @@ To install this package globally simply execute this command from your CMD or Gi
 
 `npm install --global https://github.com/tahmid-hasan/shopify-customer-scraper.git`
 
-**or**
+**_or_**
 
 `npm i -g https://github.com/tahmid-hasan/shopify-customer-scraper.git`
 
 After install it globally please execute this command to use it from anywhere from your computer
 
-`npm link scs` **or** `npm ln scs`
+`npm link scs` **_or_** `npm ln scs`
 
 # Users Guide
 
@@ -30,7 +30,7 @@ This is the commands you can use from command line for customer cli
 
 `scs --version` | To get the app version.
 
-`scs generate-customer` **or** `scs gc` | To get all customers data from a store.
+`scs generate-customer` **_or_** `scs gc` | To get all customers data from a store.
 
 ```
 Note: You have to provide some information about the store after execute this command like:
@@ -41,11 +41,11 @@ Note: You have to provide some information about the store after execute this co
 
 After getting all the customers data you can generate an excel sheet or csv. To generate a sheet please run
 
-`scs generate-sheet` **or** `scs gs`
+`scs generate-sheet` **_or_** `scs gs`
 
 You can also use flag to generate sheet with a specified filename and extension. Use `-f` flag for filename and `-e` flag for extension.
 
 ### Example
-`scs generate-sheet -f filename -e csv` **or** `scs gs -f filename -e csv`
+`scs generate-sheet -f filename -e csv` **_or_** `scs gs -f filename -e csv`
 
 The default filename for generated sheet is `customer` and the default file extension is `xlsx`
