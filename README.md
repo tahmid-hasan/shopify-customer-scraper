@@ -26,7 +26,7 @@ After install it globally please execute this command to use it from anywhere fr
 
 ## How to use it
 
-This is the commands you can use from command line for customer cli
+This is the commands you can use from command line for this APP
 
 `scs --version` | To get the app version.
 
