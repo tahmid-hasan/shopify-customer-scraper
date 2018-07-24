@@ -37,11 +37,11 @@ Note: You have to provide some information about the store after execute this co
     => API_SECRET or API_PASSWORD of that private app from the store
 ```
 
-After getting all the customers data you can generate a excel sheet or csv from that data. To generate sheet please run
+After getting all the customers data you can generate an excel sheet or csv. To generate a sheet please run
 
 `scs generate-sheet` or `scs gs`
 
-You can also use flag to generate sheet with your desired filename and extension. Use `-f` flag for filename and `-e` flag for extension.
+You can also use flag to generate sheet with a specified filename and extension. Use `-f` flag for filename and `-e` flag for extension.
 
 ### Example
 `scs generate-sheet -f filename -e csv` or `scs gs -f filename -e csv`
