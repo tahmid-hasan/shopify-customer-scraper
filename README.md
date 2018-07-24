@@ -29,10 +29,13 @@ This is the commands you can use from command line for customer cli
 `scs --version` | To get the app version.
 
 `scs generate-customer` or `scs gc` | To get all customers data from a store.
+
+```
 Note: You have to provide some information about the store after execute this command like:
     - Store URL
     - API_KEY of a private app from the store
     - API_SECRET or API_PASSWORD of that private app from the store
+```
 
 After getting all the customers date you can generate a excel sheet or csv from that data. To generate sheet please run
 
