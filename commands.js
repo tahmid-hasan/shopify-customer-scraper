@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+const version = require('./package.json').version;
+
 const program = require('commander');
 const { prompt } = require('inquirer');
 const { getCustomers, genSheet } = require('./index');
@@ -7,14 +9,14 @@ const { getCustomers, genSheet } = require('./index');
 const questions = require('./lib/questions');
 
 program
-	.version('1.0.0')
+	.version(version)
 	.description('A simple CLI app for scraping customers from a Shopify store');
 
 program
 	
 
 program
-	.command('get-cust')
+	.command('get-customer')
 	.alias('gc')
 	.description('Get all the customers from the store.')
 	.action(flag => {
