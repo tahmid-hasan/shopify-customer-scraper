@@ -37,7 +37,7 @@ Note: You have to provide some information about the store after execute this co
     => API_SECRET or API_PASSWORD of that private app from the store
 ```
 
-After getting all the customers date you can generate a excel sheet or csv from that data. To generate sheet please run
+After getting all the customers data you can generate a excel sheet or csv from that data. To generate sheet please run
 
 `scs generate-sheet` or `scs gs`
 
