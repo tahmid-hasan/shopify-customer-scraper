@@ -2,6 +2,10 @@
 
 This is a simple Command Line App to scrap customer from a Shopify store.
 
+<aside class="warning">
+Please don't ever use this app without the permission of Store Owner!
+</aside>
+
 # Installation Guide
 
 Before install it please ensure that NodeJS and NPM have already installed on your computer.
