@@ -30,9 +30,9 @@ This is the commands you can use from command line for customer cli
 
 `scs generate-customer` or `scs gc` | To get all customers data from a store.
 Note: You have to provide some information about the store after execute this command like:
-    => Store URL
-    => API_KEY of a private app from the store
-    => API_SECRET or API_PASSWORD of that private app from the store
+    - Store URL
+    - API_KEY of a private app from the store
+    - API_SECRET or API_PASSWORD of that private app from the store
 
 After getting all the customers date you can generate a excel sheet or csv from that data. To generate sheet please run
 
@@ -43,4 +43,4 @@ You can also use flag to generate sheet with your desired filename and extension
 ### Example
 `scs generate-sheet -f filename -e csv` or `scs gs -f filename -e csv`
 
-Note that the default filename for generated sheet is `customer` and the default file extension is `xlsx`
+The default filename for generated sheet is `customer` and the default file extension is `xlsx`
