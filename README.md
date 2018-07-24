@@ -3,7 +3,7 @@
 This is a simple Command Line App to scrap customer from a Shopify store.
 
 ```diff
-- ###### _Please don't use this app without the permission of Store Owner!_
+- Please don't use this app without the permission of Store Owner!
 ```
 # Installation Guide
 
