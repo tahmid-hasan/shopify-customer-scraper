@@ -30,7 +30,7 @@ This is the commands you can use from command line for customer cli
 
 `scs --version` | To get the app version.
 
-`scs generate-customer` **_or_** `scs gc` | To get all customers data from a store.
+`scs get-customer` **_or_** `scs gc` | To get all customers data from a store.
 
 ```
 Note: You have to provide some information about the store after execute this command like:
